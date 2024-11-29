@@ -30,6 +30,19 @@ Before running the script, ensure you have the following:
 
 6. At the end of the script, send the information provded by the script to your System4u contact.
 
+## Security
+
+Running the script will give access for a group of L3 technicians from System4u to the subscription with the following rights:
+
+- Reader
+- Microsoft Sentinel Contributor
+- Managed Services Registration assignment Delete Role
+
+Also, the will be eligible for activation of the following roles using the Priviledged Identity Protection:
+
+- Contributor
+- Security Reader
+
 ## Troubleshooting
 
 If you encounter any issues, ensure the following:
