@@ -1,0 +1,56 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspOfferName": {
+            "value": "System4u SecuRadar"
+        },
+        "mspOfferDescription": {
+            "value": "System4u SecuRadar solution"
+        },
+        "managedByTenantId": {
+            "value": "44f92daa-236e-4e7a-8e2a-33ed2e21809c"
+        },
+        "authorizations": {
+            "value": [
+                {
+                    "principalId": "8806dc7a-5cc1-46f2-a8f6-02c8f7bda846",
+                    "principalIdDisplayName": "System4u SecuRadar L3",
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
+                },
+                {
+                    "principalId": "8806dc7a-5cc1-46f2-a8f6-02c8f7bda846",
+                    "principalIdDisplayName": "System4u SecuRadar L3",
+                    "roleDefinitionId": "ab8e14d6-4a74-4a29-9ba8-549422addade"
+                },
+                {
+                    "principalId": "8806dc7a-5cc1-46f2-a8f6-02c8f7bda846",
+                    "principalIdDisplayName": "System4u SecuRadar L3",
+                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46"
+                }
+            ]
+        },
+        "eligibleAuthorizations": {
+            "value": [
+                {
+                    "justInTimeAccessPolicy": {
+                        "multiFactorAuthProvider": "Azure",
+                        "maximumActivationDuration": "PT4H"
+                    },
+                    "principalId": "8806dc7a-5cc1-46f2-a8f6-02c8f7bda846",
+                    "principalIdDisplayName": "System4u SecuRadar L3",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                },
+                {
+                    "justInTimeAccessPolicy": {
+                        "multiFactorAuthProvider": "Azure",
+                        "maximumActivationDuration": "PT4H"
+                    },
+                    "principalId": "8806dc7a-5cc1-46f2-a8f6-02c8f7bda846",
+                    "principalIdDisplayName": "System4u SecuRadar L3",
+                    "roleDefinitionId": "39bc4728-0917-49c7-9d2c-d95423bc2eb4"
+                }
+            ]
+        }
+    }
+}
